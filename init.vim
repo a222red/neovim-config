@@ -51,6 +51,8 @@ Plug 'ThePrimeagen/vim-be-good'
 
 Plug 'tpope/vim-surround'
 
+Plug 'junegunn/fzf', { 'do': { -> fzf#install()} }
+
 call plug#end()
 
 source ~/.config/nvim/lua/treesitter.lua
