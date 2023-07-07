@@ -53,6 +53,8 @@ Plug 'tpope/vim-surround'
 
 Plug 'junegunn/fzf', { 'do': { -> fzf#install()} }
 
+Plug 'https://github.com/windwp/nvim-ts-autotag'
+
 call plug#end()
 
 source ~/.config/nvim/lua/treesitter.lua
