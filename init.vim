@@ -19,6 +19,9 @@ set expandtab
 set shiftwidth=4
 set tabstop=4
 
+nnoremap <SPACE> <Nop>
+let mapleader = " "
+
 let g:netrw_banner=0
 
 call plug#begin()
@@ -55,7 +58,13 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install()} }
 
 Plug 'https://github.com/windwp/nvim-ts-autotag'
 
+Plug 'ziglang/zig.vim'
+
+Plug 'bkad/CamelCaseMotion'
+
 call plug#end()
+
+let g:camelcasemotion_key = '<leader>'
 
 source ~/.config/nvim/lua/treesitter.lua
 source ~/.config/nvim/lua/lsp.lua
