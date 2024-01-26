@@ -62,6 +62,8 @@ Plug 'ziglang/zig.vim'
 
 Plug 'bkad/CamelCaseMotion'
 
+Plug 'lvimuser/lsp-inlayhints.nvim'
+
 call plug#end()
 
 let g:camelcasemotion_key = '<leader>'
@@ -72,4 +74,5 @@ source ~/.config/nvim/lua/autopairs.lua
 source ~/.config/nvim/lua/completions.lua
 source ~/.config/nvim/lua/hoverinfo.lua
 source ~/.config/nvim/lua/scroll.lua
+source ~/.config/nvim/lua/inlayhints.lua
 
