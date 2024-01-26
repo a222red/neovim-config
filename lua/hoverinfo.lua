@@ -11,7 +11,8 @@ hover.setup {
     title = true
 }
 
-vim.keymap.set('n', 'K', hover.hover, {})
+--vim.keymap.set('n', 'K', hover.hover, {})
+vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
 
 local set_hl_for_floating_window = function()
     vim.api.nvim_set_hl(0, 'NormalFloat', {
