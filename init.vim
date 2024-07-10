@@ -65,12 +65,11 @@ Plug 'bkad/CamelCaseMotion'
 Plug 'lvimuser/lsp-inlayhints.nvim'
 
 Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
+Plug 'folke/tokyonight.nvim'
 
 call plug#end()
 
 let g:camelcasemotion_key = '<leader>'
-
-colorscheme catppuccin-mocha
 
 source ~/.config/nvim/lua/treesitter.lua
 source ~/.config/nvim/lua/lsp.lua
@@ -80,4 +79,7 @@ source ~/.config/nvim/lua/hoverinfo.lua
 source ~/.config/nvim/lua/scroll.lua
 " source ~/.config/nvim/lua/inlayhints.lua
 source ~/.config/nvim/lua/neovide.lua
+source ~/.config/nvim/lua/colorscheme.lua
+
+colorscheme catppuccin-mocha
 
