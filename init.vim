@@ -74,5 +74,6 @@ source ~/.config/nvim/lua/autopairs.lua
 source ~/.config/nvim/lua/completions.lua
 source ~/.config/nvim/lua/hoverinfo.lua
 source ~/.config/nvim/lua/scroll.lua
-source ~/.config/nvim/lua/inlayhints.lua
+" source ~/.config/nvim/lua/inlayhints.lua
+source ~/.config/nvim/lua/neovide.lua
 

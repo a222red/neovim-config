@@ -1,3 +1,4 @@
+--[[
 local hover = require'hover'
 
 hover.setup {
@@ -10,6 +11,7 @@ hover.setup {
     preview_window = false,
     title = true
 }
+--]]
 
 --vim.keymap.set('n', 'K', hover.hover, {})
 vim.keymap.set('n', 'K', vim.lsp.buf.hover, {})
