@@ -64,9 +64,13 @@ Plug 'bkad/CamelCaseMotion'
 
 Plug 'lvimuser/lsp-inlayhints.nvim'
 
+Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
+
 call plug#end()
 
 let g:camelcasemotion_key = '<leader>'
+
+colorscheme catppuccin-mocha
 
 source ~/.config/nvim/lua/treesitter.lua
 source ~/.config/nvim/lua/lsp.lua
