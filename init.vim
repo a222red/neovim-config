@@ -71,6 +71,8 @@ call plug#end()
 
 let g:camelcasemotion_key = '<leader>'
 
+tnoremap <Esc> <C-\><C-n>
+
 source ~/.config/nvim/lua/treesitter.lua
 source ~/.config/nvim/lua/lsp.lua
 source ~/.config/nvim/lua/autopairs.lua
