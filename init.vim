@@ -66,7 +66,7 @@ Plug 'lvimuser/lsp-inlayhints.nvim'
 
 Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 Plug 'folke/tokyonight.nvim'
-
+Plug 'akinsho/bufferline.nvim'
 call plug#end()
 
 let g:camelcasemotion_key = '<leader>'
