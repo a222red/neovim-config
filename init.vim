@@ -101,3 +101,6 @@ nnoremap <silent><leader>9 <Cmd>BufferLineGoToBuffer 9<CR>
 
 colorscheme catppuccin-mocha
 
+filetype on
+filetype plugin on
+
