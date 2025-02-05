@@ -69,6 +69,8 @@ Plug 'folke/tokyonight.nvim'
 
 Plug 'nvim-tree/nvim-web-devicons'
 Plug 'akinsho/bufferline.nvim'
+
+Plug 'goldfeld/vim-seek'
 call plug#end()
 
 let g:camelcasemotion_key = '<leader>'
