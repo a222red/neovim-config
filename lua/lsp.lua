@@ -14,7 +14,7 @@ lspconfig.lua_ls.setup {
 
 lspconfig.clangd.setup { capabilities = capabilities }
 
-lspconfig.rust_analyzer.setup { --[[capabilities = capabilities]] }
+--lspconfig.rust_analyzer.setup { --[[capabilities = capabilities]] }
 --local rust_tools = require'rust-tools';
 --rust_tools.setup()
 

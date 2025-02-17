@@ -30,7 +30,7 @@ Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
 
 Plug 'neovim/nvim-lspconfig'
 
-Plug 'simrat39/rust-tools.nvim'
+" Plug 'simrat39/rust-tools.nvim'
 
 Plug 'L3MON4D3/LuaSnip', {'tag': 'v1.*', 'do': 'make install_jsregexp'}
 
@@ -71,6 +71,8 @@ Plug 'nvim-tree/nvim-web-devicons'
 Plug 'akinsho/bufferline.nvim'
 
 Plug 'goldfeld/vim-seek'
+
+Plug 'mrcjkb/rustaceanvim'
 call plug#end()
 
 let g:camelcasemotion_key = '<leader>'
