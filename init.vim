@@ -73,6 +73,8 @@ Plug 'akinsho/bufferline.nvim'
 Plug 'goldfeld/vim-seek'
 
 Plug 'mrcjkb/rustaceanvim'
+
+Plug 'chrisgrieser/nvim-lsp-endhints'
 call plug#end()
 
 let g:camelcasemotion_key = '<leader>'
